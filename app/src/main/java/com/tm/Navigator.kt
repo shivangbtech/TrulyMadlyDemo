@@ -1,7 +1,7 @@
-package com.itc.app.views
+package com.tm.views
 
 import android.content.Intent
-import com.itc.app.base.BaseActivity
+import com.tm.base.BaseActivity
 import com.tm.constants.AppConstants
 import com.tm.models.home.CompatibilityQuestion
 import com.tm.view.carousel.CarouselActivity

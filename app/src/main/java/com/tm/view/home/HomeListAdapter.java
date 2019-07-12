@@ -6,8 +6,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
-import com.itc.app.helper.GlideHelper;
 import com.tm.R;
+import com.tm.helper.GlideHelper;
 import com.tm.models.home.CompatibilityQuestion;
 
 import java.util.List;

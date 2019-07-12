@@ -1,4 +1,4 @@
-package com.itc.app.components
+package com.tm.components
 
 open class Event<out T>(private val content: T) {
 

@@ -2,8 +2,8 @@ package com.tm.view.carousel
 
 import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
-import com.itc.app.base.BaseActivity
 import com.tm.R
+import com.tm.base.BaseActivity
 import com.tm.components.CarouselEffectTransformer
 import com.tm.constants.AppConstants
 import com.tm.models.home.CompatibilityQuestion

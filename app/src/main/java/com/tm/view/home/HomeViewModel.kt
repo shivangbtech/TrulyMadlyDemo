@@ -1,8 +1,8 @@
-package com.itc.app.views.home
+package com.tm.view.home
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.itc.app.components.Event
+import com.tm.components.Event
 import com.tm.models.BaseResponseModal
 import com.tm.models.home.CompatibilityQuestions
 import com.tm.network.ApiCallback

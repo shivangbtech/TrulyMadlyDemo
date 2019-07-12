@@ -1,4 +1,4 @@
-package com.itc.app.base
+package com.tm.base
 
 import androidx.appcompat.app.AppCompatActivity
 

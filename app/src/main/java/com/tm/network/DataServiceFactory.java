@@ -1,7 +1,7 @@
 package com.tm.network;
 
 
-import com.itc.app.network.apiInterface.IHomeApi;
+import com.tm.network.apiInterface.IHomeApi;
 import retrofit2.Retrofit;
 
 public class DataServiceFactory {

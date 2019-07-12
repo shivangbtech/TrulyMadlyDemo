@@ -1,4 +1,4 @@
-package com.itc.app.views.home
+package com.tm.view.home
 
 import android.os.Bundle
 import android.view.View
@@ -7,14 +7,13 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.itc.app.base.BaseActivity
-import com.itc.app.components.Event
-import com.itc.app.views.Navigator
 import com.tm.R
-import com.tm.view.home.HomeListAdapter
+import com.tm.base.BaseActivity
+import com.tm.components.Event
 import com.tm.models.BaseResponseModal
 import com.tm.models.home.CompatibilityQuestion
 import com.tm.models.home.CompatibilityQuestions
+import com.tm.views.Navigator
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : BaseActivity() {
