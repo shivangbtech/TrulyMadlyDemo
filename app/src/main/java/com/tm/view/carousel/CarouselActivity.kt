@@ -83,4 +83,9 @@ class CarouselActivity : BaseActivity() {
             }
         })
     }
+
+    override fun onResume() {
+        super.onResume()
+        viewpagerTop.currentItem = selectedPosition
+    }
 }

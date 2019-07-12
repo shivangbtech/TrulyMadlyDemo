@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import android.widget.TextView;
 import androidx.viewpager.widget.PagerAdapter;
 import com.itc.app.helper.GlideHelper;
 import com.tm.R;
@@ -34,15 +35,19 @@ public class CarouselAdapter extends PagerAdapter {
 
             LinearLayout linMain = (LinearLayout) view.findViewById(R.id.linMain);
             ImageView imageCover = (ImageView) view.findViewById(R.id.imageCover);
+            TextView question = view.findViewById(R.id.tv_question);
+
             linMain.setTag(position);
 
             switch (adapterType)
             {
                 case CarouselActivity.ADAPTER_TYPE_TOP:
                     linMain.setBackgroundResource(R.drawable.shadow);
+                    question.setText(compatibilityQuestions.get(position).getQuestion());
                     break;
                 case CarouselActivity.ADAPTER_TYPE_BOTTOM:
                     linMain.setBackgroundResource(0);
+
                     break;
             }
 
